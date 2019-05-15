@@ -12,7 +12,7 @@
 
 This script computes the expected result of the ongoing match between LC0 and Stockfish using Bayesian inference. It works like this:
 
-1. Assume a prior probability distribution for LC0's win/draw/loss probabilities. I chose the Dirichlet(3, 24, 3) prior. Dirichlet is basically a probability distribution over Multinomial probability distributions. For example the chosen prior states that the win/draw/loss of 20%/60%/20% is much more likely than 90%/10%/0%. 
+1. Assume a prior probability distribution for LC0's win/draw/loss probabilities. I chose the Dirichlet(3, 24, 3) prior. Dirichlet is basically a probability distribution over Multinomial probability distributions.
 
 2. Compute the posterior distribution based on the games played so far. This is simply Dirichlet(3 + wins, 24 + draws, 3 + losses).
 
