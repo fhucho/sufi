@@ -1,9 +1,8 @@
 **Status after 28 games, 5 LC0 wins and 1 Stockfish win:**
 
-|Engine|Win probability|
+|LC0|Stockfish|
 |---|---|
-| LC0 | 94.6  % |
-| Stockfish | 5.4% |
+| 94.6 % | 5.4 % |
 
 Probability that the match will be undecided after 100 games: 1.9%.
 
