@@ -13,4 +13,4 @@ This script computes the expected result of the ongoing match between LC0 and St
 |Engine|Probability|
 |---|---|
 | LC0 | 96.7  % |
-| Stockfish | 3.4% |
+| Stockfish | 3.3% |
