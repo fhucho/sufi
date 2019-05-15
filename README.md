@@ -1,10 +1,10 @@
-### TCEC 15 superfinal win probabilities after 28 games, 5 LC0 wins and 1 Stockfish win
+### TCEC 15 superfinal win probabilities
 
 |LC0|Stockfish|
 |---|---|
 | 94.6 % | 5.4 % |
 
-Probability that the match will be undecided after 100 games: 1.9%.
+(After 28 games, 5 LC0 wins and 1 Stockfish win.)
 
 ---
 
