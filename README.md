@@ -1,10 +1,10 @@
 ### TCEC 15 superfinal win probabilities
 
+After 32 games, 5 LC0 wins and 1 Stockfish win.
+
 |LC0|Stockfish|
 |---|---|
-| 94.6 % | 5.4 % |
-
-(After 28 games, 5 LC0 wins and 1 Stockfish win.)
+| 95.1 % | 4.9 % |
 
 ---
 
@@ -12,7 +12,7 @@
 
 This script computes the expected result of the ongoing match between LC0 and Stockfish using Bayesian inference. It works like this:
 
-1. Assume a prior probability distribution for LC0's win/draw/loss probabilities. I chose the Dirichlet(3, 24, 3) prior. Dirichlet is basically a probability distribution over Multinomial probability distributions.
+1. Assume a prior probability distribution for LC0's win/draw/loss probabilities. I chose the Dirichlet(3, 24, 3) prior. Dirichlet is basically a probability distribution over Multinomial probability distributions, which is a distribution that assignes win/draw/loss probabilities.
 
 2. Compute the posterior distribution based on the games played so far. This is simply Dirichlet(3 + wins, 24 + draws, 3 + losses).
 
