@@ -1,6 +1,6 @@
 ### TCEC 15 superfinal win probabilities
 
-After 32 games, 5 LC0 wins and 1 Stockfish win.
+After 36 games, 6 LC0 wins and 2 Stockfish win.
 
 |LC0|Stockfish|
 |---|---|
