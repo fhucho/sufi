@@ -6,8 +6,6 @@ Probability of winning the whole match after 44 games, 8 LC0 wins and 4 Stockfis
 |---|---|
 | 92.9 % | 7.1 % |
 
-Score probabilities:
-
 | Score | Probability |
 |-|-|
 | 53.5:46.5 | 8.5 % |
