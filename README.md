@@ -1,10 +1,10 @@
 ### TCEC 15 superfinal win probabilities
 
-After 38 games, 7 LC0 wins and 2 Stockfish win.
+After 42 games, 8 LC0 wins and 3 Stockfish wins.
 
 |LC0|Stockfish|
 |---|---|
-| 97.2 % | 2.8 % |
+| 96.8 % | 3.2 % |
 
 ---
 
@@ -22,6 +22,4 @@ This script computes the expected result of the ongoing match between LC0 and St
 
 **Choosing the prior**
 
-The Dirichlet(3, 24, 3) prior provides a weakly held belief that the win/draw/loss probabilities are 10%/80%/10%. It represents our state of knowledge when we start with Dirichlet(0, 0, 0) and observe 3 wins, 24 draws and 3 losses.
-
-The prior was changed from Dirichlet(1, 6, 1) because I realized that it gives basically no information about the relative strengths of the engines - but before the match began, we believed that they were approximately equal. Changing the prior changed LC0's win probability from 96.8% to 94.65%.
+The Dirichlet(3, 24, 3) prior provides a weakly held belief that the win/draw/loss probabilities are somewhere around 10%/80%/10%. It represents our state of knowledge when we start with Dirichlet(0, 0, 0) and observe 3 wins, 24 draws and 3 losses.
