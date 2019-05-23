@@ -1,6 +1,6 @@
 ### Expected outcome of the TCEC 15 superfinal
 
-Probability of winning the whole match after 64 games, 10 LC0 wins and 5 Stockfish wins:
+Probability of winning the whole match after 69 games, 10 LC0 wins and 5 Stockfish wins:
 
 |LC0|Stockfish|
 |---|---|
